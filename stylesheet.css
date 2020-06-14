@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+ 
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 60px;
+    border-bottom: .5px solid black;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 18px;
+    background-color: white;
+    height: 430px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .ab {
+      height: 300px;
+      background-color: black;
+      width: 80%;
+      display: block;
+  }
+  #ac {
+      float: right;
+  }
+
+  .btn-main {
+      color: black;
+      background-color: white;
+      padding: 10px 12px;
+      border: .5px solid grey;
+      font-size: 14px;
+      margin: auto;
+  }
+
+  .btn-main:hover {
+      background-color: lightgray;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  footer {
+    background-color: black;
+  }
+     
+*{
+  background-color: transparent;
+}
+.zy {
+  display: block;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-reg);
+  line-height: 1.625;
+  text-rendering: optimizeLegibility; 
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+   overflow-x: visible; 
+  min-height: 100vh;
+}
+.integrations-section .section-header h2 {
+  margin: 0 auto;
+}
+h2 {
+  margin: 0;
+}
+.g-type-display-2 {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  font-size: 50px;
+  letter-spacing: -.004em;
+  line-height: 1.286em;
+}
+h2 {
+  font-size: 1.75rem;
+  letter-spacing: -.004em;
+  line-height: 1.286em;
+  margin: 1em 0;
+}
+.integrations-section .section-header p {
+  color: var(--DEPRECATED-gray-3);
+  margin: 16px 0;
+}
+.g-type-body, .g-type-body-strong {
+  font-family: var(--font-body);
+  font-size: 1.063rem;
+  letter-spacing: .01em;
+  line-height: 1.647em;
+}
+.g-type-body {
+  font-weight: var(--font-weight-reg);
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.po {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: x-large;
+}
+.integrations-section .section-header {
+  flex-shrink: 0;
+  margin: 0 auto;
+  max-width: 464px;
+  text-align: center;
+}
+.integrations-section .section-header a {
+  align-items: center;
+  display: inline-flex;
+  margin-bottom: 40px;
+  transition: color .3s;
+}
+.g-type-buttons-and-standalone-links {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: blue;
+}
+.zx {
+  text-decoration: none;
+  color: var(--brand);
+}
+.zx {
+  background-color: transparent;
+}
+.integrations-section {
+  background: var(--gray-7);
+  padding: 64px 0 72px;
+}
+section {
+  padding: 64px 0 72px; 
+}
+
+.g-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.g-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--site-max-width);
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+
+.g-home-logo-grid {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.g-home-logo-grid ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: -12px;
+  padding: 0;
+}
+
+.lu {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.g-home-logo-grid li {
+  background: var(--white);
+  justify-content: center;
+  margin: 12px;
+  transition: box-shadow .25s,transform .25s;
+  width: calc(50% - 24px);
+}
+
+.linked {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.g-home-logo-grid .aspect-ratio {
+  padding-top: 100%;
+  position: relative;
+}
+
+
+.linked {
+  text-align: -webkit-match-parent;
+}
+.g-home-logo-grid .aspect-ratio>a, .g-home-logo-grid .aspect-ratio>span {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.zx {
+  text-decoration: none;
+  color: var(--brand);
+}
+.zx {
+  background-color: whitesmoke;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.integrations-section {
+  background: var(--gray-7);
+  padding: 64px 0 72px;
+}
+section {
+  padding: 64px 0 72px;
+}
+
+section {
+  display: block;
+}
+
+.g-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--site-max-width);
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.foot {
+  height: 50em;
+  background-color: black;
+}
+.foot1 {
+  height: 10em;
+}
+.foot2 {
+  height: 8em;
+}
+.footp {
+  color: #ddd;
+  padding: 2.5rem;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form1 {
+  
+  border: 2px solid grey ;
+  width: 25%;
+  height: 3.5em;
+  background-color: rgba(60, 60, 60, .5);
+  margin: auto;
+  border-radius: .4rem;
+  margin-left: .5em;
+  color: #ddd;  
+  padding-left: 1em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="email"]::placeholder {  
+                  
+  text-align: left; 
+  padding-left: 1em;
+}
+
+.btnform {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 15%;
+  margin-left: 1em;
+  height: 3.6em;
+  color: #ddd;
+  background-color: blue;
+}
+
+.A {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2em;
+}
+.foot3 {
+  height: 25em;
+}
+.foot3a {
+  float: left;
+  color: #ddd;
+}
+.foot4 {
+  height: 7em;
+ background-color: black;
+}
+.foot4 ul {
+  list-style: none;
+  padding: 1em;
+ 
+}
+.foot4 li {
+  padding: 1em;
+  list-style: none;
+}
+.foot4 a {
+  color: lightgray;
+  text-decoration: none;
+}
+.foot4 a:hover {
+  color: wheat;
+}
+.foot3 a:hover {
+  color: wheat;
+}
+
+.foot3h {
+  color: rgba(140, 140, 140, 1);
+  font-size: .8em;
+
+}
+.foot3 li {
+  list-style: none;
+  line-height: 2em;
+}
+.foot3 a {
+  text-decoration: none;
+  color: lightgray;
+}
+.foot3 h3 {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.second1 {
+  height: 30em;
+  width: 100%;
+}
+.second1 h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  padding-top: 3em;
+  padding-bottom: .5em;
+  color: black;
+}
+.second1 p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  color: gray;
+}
+.second1 a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: blue;
+}
+.second2 {
+  height: 18em;
+  width: 100%
+}
+.second21 {
+  height: 15em;
+  width: 90%;
+  background-color: rgba(140, 140, 140, .2);
+  
+  margin: 2vw auto;
+}
+.second22 {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.second23 {
+width: 60%;
+height: 5em;
+background-color: black;
+margin: 5em auto;
+}
+.second2 a {
+text-decoration: none;
+}
+.second24 h1 {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.second24 p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second24 {
+  padding: 2em;
+}
